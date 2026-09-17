@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(228, 240, 253);
+}
+.head1,
+.head2,
+.head3,
+.head4,
+.head5,
+.head6,
+.head7,
+.head8,
+.head9,
+.head10,
+.head11,
+.head12 {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(0, 122, 203);
+}
+.ph1,
+.ph2,
+.ph3,
+.ph4,
+.ph5,
+.ph6,
+.ph7,
+.ph8,
+.ph9,
+.ph10,
+.ph11,
+.ph12 {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  height: auto;
+}
+.name1,
+.name2,
+.name3,
+.name4,
+.name5,
+.name6,
+.name7,
+.name8,
+.name9,
+.name10,
+.name11,
+.name12 {
+  text-align: center;
+  font-size: 35px;
+  color: rgb(0, 122, 203);
+}
+.specs1,
+.specs2,
+.specs3,
+.specs4,
+.specs5,
+.specs6,
+.specs7,
+.specs8,
+.specs9,
+.specs10,
+.specs11,
+.specs12 {
+  color: black;
+  font-weight: bold;
+  font-size: larger;
+}
+.specs {
+  color: black;
+  font-size: 45px;
+  font-weight: bold;
+}
+.noon {
+  font-size: 40px;
+  color: rgb(0, 122, 203);
+  text-decoration: none;
+}
+.price {
+  color: rgb(0, 122, 203);
+  font-size: larger;
+}
+.sale {
+  text-decoration: line-through 3px dashed gray;
+  font-size: larger;
+  color: gray;
+}
+.back {
+  text-align: center;
+  display: block;
+  color: rgb(0, 122, 203);
+  text-decoration: none;
+  font-size: x-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
