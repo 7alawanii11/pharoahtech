@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(228, 240, 253);
+  margin: 0;
+}
+.project {
+  margin-top: 100px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(0, 122, 203);
+  padding: 10px;
+  text-align: center;
+}
+
+details {
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+p {
+  margin-top: 50px;
+}
+.click {
+  text-decoration: none;
+  color: black;
+}
+.click:hover {
+  font-size: 50px;
+}
+.email,
+.phone {
+  text-decoration: none;
+  color: black;
+}
+.head {
+  color: rgb(0, 122, 203);
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.img {
+  width: 600px;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  background-color: rgb(216, 230, 246);
+  border-radius: 10px;
+  padding: 30px;
+}
+.project2 {
+  margin-top: 80px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}

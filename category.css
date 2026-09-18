@@ -1,0 +1,104 @@
+body {
+  background-color: rgb(228, 240, 253);
+  margin: 0;
+}
+.cardsphone {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  width: 100%;
+}
+.head {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(0, 122, 203);
+}
+.one,
+.two,
+.three {
+  background-color: #e0f2fe;
+  width: 350px;
+  height: 450px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 3px 3px 6px #b5adad;
+}
+.ph1,
+.ph2 {
+  width: 280px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+.ph5 {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.one2,
+.two2 {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+.s {
+  color: rgb(0, 122, 203);
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+.ph4 {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.ph6 {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.ph7 {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.ph3 {
+  width: 250px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.ph8 {
+  width: 260px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.ph9 {
+  width: 335px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.ph10 {
+  width: 250px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.back {
+  text-align: center;
+  display: block;
+  color: rgb(0, 122, 203);
+  text-decoration: none;
+  font-size: x-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
