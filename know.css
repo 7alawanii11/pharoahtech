@@ -7,17 +7,6 @@ body {
   text-align: center;
 }
 
-.head {
-  color: white;
-  background-color: rgb(0, 122, 203);
-  height: 60px;
-  margin: 0;
-  padding: 0 40px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .brand {
   font-size: 28px;
   margin: 0;
@@ -28,24 +17,6 @@ body {
   gap: 40px;
 }
 
-.aboutus,
-.products,
-.joinus,
-.home,
-.stores {
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
-}
-
-.products:hover,
-.joinus:hover,
-.aboutus:hover,
-.home:hover,
-.stores:hover {
-  font-size: 25px;
-  text-decoration: underline;
-}
 .our {
   color: rgb(0, 122, 203);
   text-align: center;
@@ -96,4 +67,16 @@ body {
 .copy {
   color: rgb(0, 122, 203);
   text-align: center;
+}
+.navbar {
+  background-color: rgb(0, 122, 203);
+}
+.offcanvas {
+  background-color: rgb(0, 122, 203);
+  color: white;
+}
+.nav-link:hover {
+  text-decoration: underline;
+  font-size: 22px;
+  font-weight: bolder;
 }

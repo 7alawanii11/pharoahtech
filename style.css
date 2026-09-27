@@ -7,17 +7,6 @@ body {
   text-align: center;
 }
 
-.head {
-  color: white;
-  background-color: rgb(0, 122, 203);
-  height: 60px;
-  margin: 0;
-  padding: 0 40px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .brand {
   font-size: 28px;
   margin: 0;
@@ -26,25 +15,6 @@ body {
 .nav-links {
   display: flex;
   gap: 40px;
-}
-
-.aboutus,
-.products,
-.joinus,
-.home,
-.stores {
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
-}
-
-.products:hover,
-.joinus:hover,
-.aboutus:hover,
-.home:hover,
-.stores:hover {
-  font-size: 25px;
-  text-decoration: underline;
 }
 
 .logo {
@@ -64,8 +34,8 @@ body {
   font-weight: bolder;
   font-size: 40px;
   background-color: #e0f2fe;
-  width: 350px;
-  height: 220px;
+  width: 440px;
+  height: 200px;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 3px 3px 6px #b5adad;
@@ -123,60 +93,54 @@ body {
   font-size: 25px;
   text-align: center;
 }
-.ph1,
 .ph2 {
-  width: 280px;
-  height: 300px;
-  display: block;
-  margin: 0 auto;
+  width: 220px;
+  margin-left: 40px;
+}
+.ph1 {
+  width: 300px;
+  margin-left: 10px;
 }
 .ph3 {
-  width: 250px;
+  width: 210px;
   height: auto;
-  display: block;
-  margin: 0 auto;
+  margin-left: 40px;
 }
 .ph4 {
-  width: 400px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+  width: 390px;
+  margin: auto;
 }
 .ph5 {
   width: 250px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+  margin-left: 35px;
 }
 .ph6 {
   width: 300px;
   height: auto;
-  display: block;
+
   margin: 0 auto;
 }
 .ph7 {
   width: 400px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
 }
 .ph8 {
   width: 260px;
   height: auto;
-  display: block;
+
   margin: 0 auto;
 }
 .ph9 {
   width: 335px;
   height: auto;
-  display: block;
+
   margin: 0 auto;
 }
 .ph10 {
-  width: 250px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+  width: 220px;
+  margin-left: 45px;
+}
+.ph11 {
+  width: 390px;
 }
 .s {
   color: rgb(0, 122, 203);
@@ -254,4 +218,23 @@ body {
   font-size: 14px;
   font-weight: bold;
   box-shadow: 2px 2px 5px #b5adad;
+}
+.navbar {
+  background-color: rgb(0, 122, 203);
+}
+.offcanvas {
+  background-color: rgb(0, 122, 203);
+  color: white;
+}
+.nav-link:hover {
+  text-decoration: underline;
+  font-size: 22px;
+  font-weight: bolder;
+}
+.btn {
+  background-color: rgb(0, 122, 203);
+}
+.dropdown-item:hover {
+  font-size: 22px;
+  text-decoration: underline;
 }

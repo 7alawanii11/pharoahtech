@@ -61,40 +61,6 @@ body {
   gap: 40px;
 }
 
-.aboutus,
-.products,
-.joinus,
-.home,
-.stores {
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
-}
-
-.products:hover,
-.joinus:hover,
-.aboutus:hover,
-.home:hover,
-.stores:hover {
-  font-size: 25px;
-  text-decoration: underline;
-}
-summary {
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 40px;
-  color: rgb(0, 122, 203);
-  padding: 10px;
-  text-align: center;
-}
-
-details {
-  border-radius: 8px;
-  margin-bottom: 15px;
-  padding: 10px;
-  text-align: center;
-  font-size: 30px;
-}
 .FAQ {
   text-align: center;
   font-size: 40px;
@@ -117,4 +83,16 @@ details {
   font-size: 40px;
   font-weight: bolder;
   display: block;
+}
+.navbar {
+  background-color: rgb(0, 122, 203);
+}
+.offcanvas {
+  background-color: rgb(0, 122, 203);
+  color: white;
+}
+.nav-link:hover {
+  text-decoration: underline;
+  font-size: 22px;
+  font-weight: bolder;
 }
