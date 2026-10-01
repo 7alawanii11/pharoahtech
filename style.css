@@ -65,9 +65,10 @@ body {
 }
 .cardsphone {
   display: flex;
-  gap: 20px;
+  flex-wrap: wrap;
   justify-content: space-around;
-  width: 100%;
+  gap: 25px;
+  margin-bottom: 100px;
 }
 .one,
 .two {
