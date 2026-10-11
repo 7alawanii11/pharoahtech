@@ -7,16 +7,6 @@ body {
   text-align: center;
 }
 
-.brand {
-  font-size: 28px;
-  margin: 0;
-}
-
-.nav-links {
-  display: flex;
-  gap: 40px;
-}
-
 .city {
   color: rgb(0, 122, 203);
   text-decoration: none;
@@ -62,4 +52,55 @@ body {
   text-decoration: underline;
   font-size: 22px;
   font-weight: bolder;
+}
+@media (max-width: 480px) {
+  .cities {
+    font-size: 45px;
+  }
+  .soon {
+    font-size: 30px;
+  }
+  .our {
+    font-size: 50px;
+  }
+  .city1 {
+    font-size: 45px;
+  }
+  .location {
+    font-size: 28px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  .cities {
+    font-size: 45px;
+  }
+  .soon {
+    font-size: 30px;
+  }
+  .our {
+    font-size: 50px;
+  }
+  .city1 {
+    font-size: 45px;
+  }
+  .location {
+    font-size: 28px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .cities {
+    font-size: 45px;
+  }
+  .soon {
+    font-size: 30px;
+  }
+  .our {
+    font-size: 50px;
+  }
+  .city1 {
+    font-size: 45px;
+  }
+  .location {
+    font-size: 28px;
+  }
 }

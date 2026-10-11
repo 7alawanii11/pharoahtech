@@ -98,3 +98,30 @@ body {
   font-size: 22px;
   text-align: center;
 }
+@media (max-width: 480px) {
+  .ph1,
+  .ph2,
+  .ph3,
+  .ph4,
+  .ph6,
+  .ph7,
+  .ph8,
+  .ph9,
+  .ph10,
+  .ph11,
+  .ph12 {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+  }
+  .noon {
+    font-size: 40px;
+    color: rgb(0, 122, 203);
+    text-decoration: none;
+  }
+  .ph5 {
+    width: 300px;
+    height: auto;
+  }
+}
